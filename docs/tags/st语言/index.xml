@@ -23,10 +23,10 @@
       <description>&lt;p&gt;该程序能够在每次按钮按下时，根据当前状态决定下一步操作是启动还是停止哪台电机。具体的逻辑是：首次按下按钮启动电机1，再次按下停止电机1并启动电机2，接着再按一次停止电机2并启动电机3，最后再次按下停止电机3。之后循环重复这个过程。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>一个单按钮启停控制程序</title>
-      <link>/post/%E4%B8%80%E4%B8%AA%E5%8D%95%E6%8C%89%E9%92%AE%E5%90%AF%E5%81%9C%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/</link>
+      <title>单按钮启停控制程序</title>
+      <link>/post/%E5%8D%95%E6%8C%89%E9%92%AE%E5%90%AF%E5%81%9C%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/</link>
       <pubDate>Sun, 11 Feb 2024 20:18:56 +0800</pubDate>
-      <guid>/post/%E4%B8%80%E4%B8%AA%E5%8D%95%E6%8C%89%E9%92%AE%E5%90%AF%E5%81%9C%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/</guid>
+      <guid>/post/%E5%8D%95%E6%8C%89%E9%92%AE%E5%90%AF%E5%81%9C%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/</guid>
       <description>&lt;p&gt;使用一个按钮来控制某个设备（例如，一个电机）的启动和停止。在这个场景中，当按钮第一次按下时，设备启动；当按钮再次按下时，设备停止。这要求我们跟踪按钮的状态和设备的当前状态。&lt;/p&gt;</description>
     </item>
     <item>

@@ -4,15 +4,14 @@ description: This article helps you get started with the Mainroad theme, includi
   configuration.
 lead: This article helps you get started with the Mainroad theme, including installation and minimal configuration.
 date: 2022-01-24T14:00:00.000Z
-tags:
-  - "Installation"
+tags:                                    # 标签
+  - "HUGO"
 authorbox: false
 sidebar: false
 pager: false
 #weight: 1
 #menu: main
-categories:                              # 分类
-  - "教程"
+#categories:
 ---
 
 Welcome to the Mainroad theme documentation. This quick start guide covers Mainroad theme installation and minimal

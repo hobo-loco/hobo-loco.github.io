@@ -3,9 +3,9 @@ title: "如何创建一个hugo部落格"
 date: 2024-02-05T19:37:07+08:00
 description: ""
 tags:
-    - "blog"
-categories:
-    - 教程
+    - blog
+    - hugo
+#categories:
 DisableComments: false
 ---
 
@@ -21,9 +21,9 @@ DisableComments: false
 
 3. **选择并配置主题**：选定主题后，将其下载并应用到你的Hugo站点。进一步配置主题以匹配你的风格和功能需求，比如修改颜色方案，添加必要的插件等。
 
-4. **添加内容**：创建Markdown文件的文章和笔记，并将它们组织在合适的目录结构中。你可以使用Hugo的内容管理特性来分类和标签化您的文章，使它们易于管理和访问。
+4. **创建文章**：创建Markdown文件的文章和笔记，并将它们组织在合适的目录结构中。你可以使用Hugo的内容管理特性来分类和标签化您的文章，使它们易于管理和访问。
 
-5. **集成图像画廊和社交媒体**：利用你选择的Hugo主题或通过自定义HTML和JavaScript代码，集成图像画廊和社交媒体链接。这可能包括为你的文章添加封面图像，以及在页脚或侧边栏添加指向你的社交媒体账户的链接。
+5. **添加图片和社交媒体信息**：利用你选择的Hugo主题或通过自定义HTML和JavaScript代码，集成图像画廊和社交媒体链接。这可能包括为你的文章添加封面图像，以及在页脚或侧边栏添加指向你的社交媒体账户的链接。
 
 6. **本地测试和部署**：在本地环境测试网站，确保一切功能正常，然后选择一个静态网站托管服务（如GitHub Pages、Netlify或Vercel）来部署您的站点。
 
@@ -57,6 +57,7 @@ git submodule add https://github.com/theme-author/theme-name.git themes/theme-na
 将`https://github.com/theme-author/theme-name.git`替换为所选主题的Git仓库URL，`theme-name`为主题名称。
 
 **或者**直接下载主题文件，然后解压到你的站点文件夹的**them**文件夹中。
+***建议查看所选主题的文档和Hugo的官方文档。***
 
 ### 步骤 3: 配置站点
 
@@ -69,11 +70,11 @@ title = "My Tech Blog"
 theme = "theme-name"
 ```
 
-根据所选主题的文档，你可能还需要添加其他配置项，从而能够启用图像画廊和社交媒体链接等功能。
+根据所选主题的文档，你可能还需要添加其他配置项，从而能够启用社交媒体链接等功能。
 
 ### 步骤 4: 添加内容
 
-在`content`目录下创建Markdown文件来添加文章。例如，创建一个名为`hello-world.md`的文件：
+* 在`content`目录下创建Markdown文件来添加文章。例如，创建一个名为`hello-world.md`的文件：
 
 ```markdown
 ---
@@ -85,7 +86,7 @@ draft: false
 Welcome to my tech blog. Here is where I'll be sharing my technical articles and learning notes.
 ```
 
-也可以进入博客**根目录**使用以下命令添加一个新文章：
+* 也可以进入博客**根目录**使用以下命令添加一个新文章：
 ```
 hugo new post/my-first-post.md
 ```
@@ -110,4 +111,14 @@ hugo -d docs
 
 一旦你满意于站点的外观和内容，可以选择一个静态网站托管服务来部署您的站点，如GitHub Pages、Netlify或Vercel。
 
-这是一个基本的开始，但它将帮助你搭建起自己的技术博客。如果您需要关于如何自定义主题或进一步扩展功能的指导，***建议查看所选主题的文档和Hugo的官方文档。***
+下面记录发布到GitHub的关键步骤：
+1. 创建GitHub账号、下载git和GitHub桌面端（自行搞定）
+1. 在GitHub创建存储库
+   * 存储库地址填写你的账号名+github.io，如：hobo.github.io
+   * 进入GitHub设置/PAGE，看到发布站点的网址，将root改为docs
+1. 在GitHub桌面端登录账号，将创建的站点克隆到本地
+   * 将克隆到本地的文件夹中的.git文件夹复制到你创建的博客根目录
+   * 删掉GitHub桌面端中刚刚克隆的站点，选择你创建的网站文件夹，发布到网站上（输入update，点击发布）
+1. 查看GitHub网站的存储库是否完成上传
+
+*[建议查看 "关于 GitHub 页面" 及相关官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#about-github-pages)*

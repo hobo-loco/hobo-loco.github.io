@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Mar 2024 10:44:56 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2024 22:23:48 +0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电动机</title>
+      <link>/tags/%E7%94%B5%E5%8A%A8%E6%9C%BA/</link>
+      <pubDate>Sat, 23 Mar 2024 22:23:48 +0800</pubDate>
+      <guid>/tags/%E7%94%B5%E5%8A%A8%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CAD</title>
+      <link>/tags/cad/</link>
+      <pubDate>Sat, 23 Mar 2024 21:56:17 +0800</pubDate>
+      <guid>/tags/cad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Sat, 23 Mar 2024 10:44:56 +0800</pubDate>
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
     <item>
       <title>HUGO</title>
       <link>/tags/hugo/</link>
@@ -23,24 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>案例</title>
-      <link>/tags/%E6%A1%88%E4%BE%8B/</link>
-      <pubDate>Sun, 11 Feb 2024 20:36:50 +0800</pubDate>
-      <guid>/tags/%E6%A1%88%E4%BE%8B/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>基尔霍夫</title>
       <link>/tags/%E5%9F%BA%E5%B0%94%E9%9C%8D%E5%A4%AB/</link>
       <pubDate>Tue, 06 Feb 2024 21:20:41 +0800</pubDate>
       <guid>/tags/%E5%9F%BA%E5%B0%94%E9%9C%8D%E5%A4%AB/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>电动机</title>
-      <link>/tags/%E7%94%B5%E5%8A%A8%E6%9C%BA/</link>
-      <pubDate>Tue, 06 Feb 2024 21:20:41 +0800</pubDate>
-      <guid>/tags/%E7%94%B5%E5%8A%A8%E6%9C%BA/</guid>
       <description></description>
     </item>
     <item>
@@ -51,24 +58,10 @@
       <description></description>
     </item>
     <item>
-      <title>ABB</title>
-      <link>/tags/abb/</link>
+      <title>机械手</title>
+      <link>/tags/%E6%9C%BA%E6%A2%B0%E6%89%8B/</link>
       <pubDate>Tue, 06 Feb 2024 21:05:54 +0800</pubDate>
-      <guid>/tags/abb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>机器人</title>
-      <link>/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Tue, 06 Feb 2024 21:05:54 +0800</pubDate>
-      <guid>/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>零点校准</title>
-      <link>/tags/%E9%9B%B6%E7%82%B9%E6%A0%A1%E5%87%86/</link>
-      <pubDate>Tue, 06 Feb 2024 21:05:54 +0800</pubDate>
-      <guid>/tags/%E9%9B%B6%E7%82%B9%E6%A0%A1%E5%87%86/</guid>
+      <guid>/tags/%E6%9C%BA%E6%A2%B0%E6%89%8B/</guid>
       <description></description>
     </item>
     <item>
@@ -90,41 +83,6 @@
       <link>/tags/chatgpt/</link>
       <pubDate>Mon, 05 Feb 2024 20:01:31 +0800</pubDate>
       <guid>/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Mon, 05 Feb 2024 19:37:07 +0800</pubDate>
-      <guid>/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>/tags/installation/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>/tags/installation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Basic Elements</title>
-      <link>/tags/basic-elements/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/basic-elements/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CSS</title>
-      <link>/tags/css/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTML</title>
-      <link>/tags/html/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/html/</guid>
       <description></description>
     </item>
     <item>
@@ -153,13 +111,6 @@
       <link>/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>/tags/templates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>themes</title>
-      <link>/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>/tags/themes/</guid>
       <description></description>
     </item>
   </channel>

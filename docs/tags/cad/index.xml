@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAD on Website of hobo loco</title>
+    <link>/tags/cad/</link>
+    <description>Recent content in CAD on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 23 Mar 2024 21:56:17 +0800</lastBuildDate>
+    <atom:link href="/tags/cad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAD绘图进阶</title>
+      <link>/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/</link>
+      <pubDate>Sat, 23 Mar 2024 21:56:17 +0800</pubDate>
+      <guid>/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/</guid>
+      <description>&lt;p&gt;较复杂的命令包括创建块、阵列、拉伸、倒角、标注、打印&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAD绘图基础</title>
+      <link>/post/cad-note-%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Sat, 23 Mar 2024 21:36:55 +0800</pubDate>
+      <guid>/post/cad-note-%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/</guid>
+      <description>&lt;p&gt;基本操作涉及直线、圆、表格、文字，以及修剪、填充等命令。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAD软件设置</title>
+      <link>/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Sat, 23 Mar 2024 20:07:38 +0800</pubDate>
+      <guid>/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;p&gt;绘图前应先完成调整软件的工作，调出常用的工具栏、调整光标和命令行、定义图层等。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

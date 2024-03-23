@@ -4,8 +4,7 @@ date: 2024-02-05T20:01:31+08:00
 description: 记录chatGPT使用的技巧
 tags: 
 - ChatGPT
-categories: 
-- 教程
+#categories: 
 DisableComments: false
 ---
 

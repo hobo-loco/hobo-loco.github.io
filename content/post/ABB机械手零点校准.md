@@ -1,17 +1,15 @@
 ---
-title: "ABB机器人零点校准"
+title: "ABB机械手零点校准"
 date: 2024-02-06T21:05:54+08:00
 description: ""
 tags: 
-- ABB
-- 机器人
-- 零点校准
+- 机械手
 categories:
-    - techonlogy
+    - TECHNOLOGY
 DisableComments: false
 ---
 
-校准ABB机器人零点的具体步骤。
+校准ABB机械手零点的具体步骤。
 <!--more-->
 
 ## 第一步：选择手动操纵（首先把钥匙开关打到手动位置）

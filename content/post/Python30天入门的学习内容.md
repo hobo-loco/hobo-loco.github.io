@@ -5,7 +5,7 @@ description: ""
 tags: 
 - Python
 categories:
-  - life
+  - LIFE
 DisableComments: false
 ---
 

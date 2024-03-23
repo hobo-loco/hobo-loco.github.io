@@ -65,7 +65,7 @@ theme = "mainroad"
 [[menu.main]]
     name = "TECHONLOGY"
     identifier = "tech"
-    url = "/categories/techonlogy/"
+    url = "/categories/TECHNOLOGY/"
     weight = 2
 
 [[menu.main]]
@@ -77,7 +77,7 @@ theme = "mainroad"
 [[menu.main]]
     name = "LIFE"
     identifier = "life"
-    url = "/categories/life/"
+    url = "/categories/LIFE/"
     weight = 4
 
 

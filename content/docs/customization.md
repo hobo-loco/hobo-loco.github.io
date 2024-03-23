@@ -14,8 +14,9 @@ sidebar: false
 pager: false
 #weight: 2
 #menu: main
-categories:                              # 分类
-  - "教程"
+#categories:  
+tags:                                    # 标签
+  - "HUGO"
 ---
 
 Customization page describes common Mainroad configuration parameters which can be specified via configuration file or

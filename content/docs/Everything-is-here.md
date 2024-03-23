@@ -1,16 +1,17 @@
 ---
 title: "Everything Is Here"              # 标题
 description: Describes commo.            # 描述
-lead: 本文介绍Mainroad的博文编辑方法       # 导言
+lead: 将编辑HUGO blog的方法技巧进行了整理       # 导言
 date: 2024-03-23T10:44:56+08:00          # 日期
 #thumbnail: "img/placeholder.png"         # 缩略图
 authorbox: false                         # 作者框
 sidebar: false                           # 侧边栏
 pager: false                             # 分页器
 tags:                                    # 标签
-  - "HUGO"
-categories:                              # 分类
-  - "教程"
+  - hugo
+  - blog
+categories:
+  - 教程
 ---
 
 在Hugo中，通常`content`文件夹用于存储您网站的内容，而`docs`和`post`这样的文件夹可能被用于组织不同类型或不同主题的内容。

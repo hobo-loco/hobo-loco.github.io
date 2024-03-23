@@ -6,56 +6,35 @@
     <description>Recent content in 教程 on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Mar 2024 10:44:56 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2024 21:56:17 +0800</lastBuildDate>
     <atom:link href="/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAD绘图进阶</title>
+      <link>/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/</link>
+      <pubDate>Sat, 23 Mar 2024 21:56:17 +0800</pubDate>
+      <guid>/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/</guid>
+      <description>&lt;p&gt;较复杂的命令包括创建块、阵列、拉伸、倒角、标注、打印&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAD绘图基础</title>
+      <link>/post/cad-note-%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Sat, 23 Mar 2024 21:36:55 +0800</pubDate>
+      <guid>/post/cad-note-%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/</guid>
+      <description>&lt;p&gt;基本操作涉及直线、圆、表格、文字，以及修剪、填充等命令。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAD软件设置</title>
+      <link>/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Sat, 23 Mar 2024 20:07:38 +0800</pubDate>
+      <guid>/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;p&gt;绘图前应先完成调整软件的工作，调出常用的工具栏、调整光标和命令行、定义图层等。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Everything Is Here</title>
       <link>/docs/everything-is-here/</link>
       <pubDate>Sat, 23 Mar 2024 10:44:56 +0800</pubDate>
       <guid>/docs/everything-is-here/</guid>
       <description>&lt;p&gt;在Hugo中，通常&lt;code&gt;content&lt;/code&gt;文件夹用于存储您网站的内容，而&lt;code&gt;docs&lt;/code&gt;和&lt;code&gt;post&lt;/code&gt;这样的文件夹可能被用于组织不同类型或不同主题的内容。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ChatGPT好用的指令</title>
-      <link>/post/chatgpt%E5%A5%BD%E7%94%A8%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
-      <pubDate>Mon, 05 Feb 2024 20:01:31 +0800</pubDate>
-      <guid>/post/chatgpt%E5%A5%BD%E7%94%A8%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
-      <description>&lt;p&gt;chatgpt指令在不同方面使用的技巧。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何创建一个hugo部落格</title>
-      <link>/post/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAhugo%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
-      <pubDate>Mon, 05 Feb 2024 19:37:07 +0800</pubDate>
-      <guid>/post/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAhugo%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
-      <description>&lt;p&gt;介绍如何使用hugo搭建个人博客。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Customization</title>
-      <link>/docs/customization/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>/docs/customization/</guid>
-      <description>&lt;p&gt;Customization page describes common Mainroad configuration parameters which can be specified via configuration file or&#xA;via Front Matter section. That includes logo section tuning, adding a sidebar with widgets, adjusting highlight color,&#xA;and more.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Frequently asked questions (FAQ)</title>
-      <link>/docs/faq/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>/docs/faq/</guid>
-      <description>&lt;p&gt;Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere&#xA;in the documentation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting started</title>
-      <link>/docs/getting-started/</link>
-      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
-      <guid>/docs/getting-started/</guid>
-      <description>&lt;p&gt;Welcome to the Mainroad theme documentation. This quick start guide covers Mainroad theme installation and minimal&#xA;configuration and is intended for intermediate to advanced users. To understand this guide, you need to be familiar&#xA;with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Basic HTML Elements</title>
-      <link>/docs/basic-elements/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/docs/basic-elements/</guid>
-      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

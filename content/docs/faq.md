@@ -10,8 +10,7 @@ pager: false
 # menu:
 #   main:
 #     name: FAQ
-categories:                              # 分类
-  - "教程"
+#categories: 
 ---
 
 Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere

@@ -17,8 +17,8 @@
 		<meta itemprop="name" content="如何创建一个hugo部落格">
 <meta itemprop="description" content="介绍如何使用hugo搭建个人博客。"><meta itemprop="datePublished" content="2024-02-05T19:37:07+08:00" />
 <meta itemprop="dateModified" content="2024-02-05T19:37:07+08:00" />
-<meta itemprop="wordCount" content="110">
-<meta itemprop="keywords" content="blog," />
+<meta itemprop="wordCount" content="124">
+<meta itemprop="keywords" content="blog,hugo," />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -59,7 +59,7 @@
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/categories/techonlogy/">
+			<a class="menu__link" href="/categories/technology/">
 				
 				<span class="menu__text">TECHONLOGY</span>
 				
@@ -100,9 +100,7 @@
 			<h1 class="post__title">如何创建一个hugo部落格</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-02-05T19:37:07&#43;08:00">2024-02-05</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%E6%95%99%E7%A8%8B/" rel="category">教程</a>
-	</span>
-</div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-02-05T19:37:07&#43;08:00">2024-02-05</time></div></div>
 		</header>
 		
 <div class="post__toc toc">
@@ -140,10 +138,10 @@
 <p><strong>选择并配置主题</strong>：选定主题后，将其下载并应用到你的Hugo站点。进一步配置主题以匹配你的风格和功能需求，比如修改颜色方案，添加必要的插件等。</p>
 </li>
 <li>
-<p><strong>添加内容</strong>：创建Markdown文件的文章和笔记，并将它们组织在合适的目录结构中。你可以使用Hugo的内容管理特性来分类和标签化您的文章，使它们易于管理和访问。</p>
+<p><strong>创建文章</strong>：创建Markdown文件的文章和笔记，并将它们组织在合适的目录结构中。你可以使用Hugo的内容管理特性来分类和标签化您的文章，使它们易于管理和访问。</p>
 </li>
 <li>
-<p><strong>集成图像画廊和社交媒体</strong>：利用你选择的Hugo主题或通过自定义HTML和JavaScript代码，集成图像画廊和社交媒体链接。这可能包括为你的文章添加封面图像，以及在页脚或侧边栏添加指向你的社交媒体账户的链接。</p>
+<p><strong>添加图片和社交媒体信息</strong>：利用你选择的Hugo主题或通过自定义HTML和JavaScript代码，集成图像画廊和社交媒体链接。这可能包括为你的文章添加封面图像，以及在页脚或侧边栏添加指向你的社交媒体账户的链接。</p>
 </li>
 <li>
 <p><strong>本地测试和部署</strong>：在本地环境测试网站，确保一切功能正常，然后选择一个静态网站托管服务（如GitHub Pages、Netlify或Vercel）来部署您的站点。</p>
@@ -165,16 +163,19 @@
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/theme-author/theme-name.git themes/theme-name
 </span></span></code></pre></div><p>将<code>https://github.com/theme-author/theme-name.git</code>替换为所选主题的Git仓库URL，<code>theme-name</code>为主题名称。</p>
-<p><strong>或者</strong>直接下载主题文件，然后解压到你的站点文件夹的<strong>them</strong>文件夹中。</p>
+<p><strong>或者</strong>直接下载主题文件，然后解压到你的站点文件夹的<strong>them</strong>文件夹中。
+<em><strong>建议查看所选主题的文档和Hugo的官方文档。</strong></em></p>
 <h3 id="步骤-3-配置站点">步骤 3: 配置站点</h3>
 <p>编辑位于站点根目录下的<code>config.toml</code>文件，设置主题和其他站点配置：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;http://example.org/&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;en-us&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;My Tech Blog&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;theme-name&#34;</span>
-</span></span></code></pre></div><p>根据所选主题的文档，你可能还需要添加其他配置项，从而能够启用图像画廊和社交媒体链接等功能。</p>
+</span></span></code></pre></div><p>根据所选主题的文档，你可能还需要添加其他配置项，从而能够启用社交媒体链接等功能。</p>
 <h3 id="步骤-4-添加内容">步骤 4: 添加内容</h3>
-<p>在<code>content</code>目录下创建Markdown文件来添加文章。例如，创建一个名为<code>hello-world.md</code>的文件：</p>
+<ul>
+<li>在<code>content</code>目录下创建Markdown文件来添加文章。例如，创建一个名为<code>hello-world.md</code>的文件：</li>
+</ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>title: &#34;Hello World&#34;
 </span></span><span style="display:flex;"><span>date: 2024-02-04
@@ -182,7 +183,9 @@
 </span></span><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Welcome to my tech blog. Here is where I&#39;ll be sharing my technical articles and learning notes.
-</span></span></code></pre></div><p>也可以进入博客<strong>根目录</strong>使用以下命令添加一个新文章：</p>
+</span></span></code></pre></div><ul>
+<li>也可以进入博客<strong>根目录</strong>使用以下命令添加一个新文章：</li>
+</ul>
 <pre tabindex="0"><code>hugo new post/my-first-post.md
 </code></pre><h3 id="步骤-5-启动本地服务器">步骤 5: 启动本地服务器</h3>
 <p>运行Hugo的本地服务器来预览你的站点：</p>
@@ -192,7 +195,24 @@
 <pre tabindex="0"><code>hugo -d docs
 </code></pre><h3 id="步骤-7-部署">步骤 7: 部署</h3>
 <p>一旦你满意于站点的外观和内容，可以选择一个静态网站托管服务来部署您的站点，如GitHub Pages、Netlify或Vercel。</p>
-<p>这是一个基本的开始，但它将帮助你搭建起自己的技术博客。如果您需要关于如何自定义主题或进一步扩展功能的指导，<em><strong>建议查看所选主题的文档和Hugo的官方文档。</strong></em></p>
+<p>下面记录发布到GitHub的关键步骤：</p>
+<ol>
+<li>创建GitHub账号、下载git和GitHub桌面端（自行搞定）</li>
+<li>在GitHub创建存储库
+<ul>
+<li>存储库地址填写你的账号名+github.io，如：hobo.github.io</li>
+<li>进入GitHub设置/PAGE，看到发布站点的网址，将root改为docs</li>
+</ul>
+</li>
+<li>在GitHub桌面端登录账号，将创建的站点克隆到本地
+<ul>
+<li>将克隆到本地的文件夹中的.git文件夹复制到你创建的博客根目录</li>
+<li>删掉GitHub桌面端中刚刚克隆的站点，选择你创建的网站文件夹，发布到网站上（输入update，点击发布）</li>
+</ul>
+</li>
+<li>查看GitHub网站的存储库是否完成上传</li>
+</ol>
+<p><em><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#about-github-pages">建议查看 &ldquo;关于 GitHub 页面&rdquo; 及相关官方文档</a></em></p>
 		</div>
 		<footer class="post__footer">
 			
@@ -201,6 +221,9 @@
 	<ul class="tags__list">
 		<li class="tags__item">
 			<a class="tags__link btn" href="/tags/blog/" rel="tag">blog</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/hugo/" rel="tag">hugo</a>
 		</li>
 	</ul>
 </div>

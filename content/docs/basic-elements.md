@@ -2,18 +2,16 @@
 title: Basic HTML Elements
 description: Example test article that contains basic HTML elements for text formatting on the Web.
 date: 2018-04-16
-categories:
-  - "Development"
-tags:
-  - "HTML"
-  - "CSS"
-  - "Basic Elements"
+#categories:
+# tags:
+#   - "HTML"
+#   - "CSS"
+#   - "Basic Elements"
 #menu:
 #  main:
 #    name: Basic Elements
 #    weight: 4
-categories:                              # 分类
-- "教程"
+#categories:
 ---
 
 The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.
