@@ -1,0 +1,116 @@
+#baseURL = 'https://hobo-loco.github.io/'             # 站点的基本 URL
+languageCode = 'zh-cn'
+# Check if contentDir is configured, it should point to your content directory.
+ContentDir = "content"                                          # 指定Hugo应该查找内容的目录
+title = 'Website of hobo loco'
+paginate = "10" # Number of posts per page                      # 每页显示的文章数
+theme = "mainroad"
+
+[services.disqus]                                               # Disqus 评论设置
+ # shortname = ""      # 输入 Disqus 的 shortname 启用 Disqus
+[services.googleAnalytics]                                      # Google Analytics 设置
+ # ID = "" 输入跟踪 ID 启用 Google Analytics
+
+
+[Author]                                                        # 作者信息（用于作者框）
+  name = "Hobo Loco"
+  bio = "Hobo Loco's a successful blogger. Nobody knows it."    # 作者简介
+  avatar = "img/avatar.png"                                     # 作者头像路径
+
+[Params]                                                        # 参数设置
+  description = "Hobo Loco's Personal blog about everything"    # 网站描述，用于元描述
+  copyright = "Hobo Loco"                                       # 版权信息，否则将使用站点标题
+  opengraph = true                                              # 是否启用 OpenGraph
+  schema = true                                                 # 是否启用 Schema
+  twitter_cards = false                                         # 是否启用 Twitter Cards
+  readmore = false                                              # 是否在列表中显示“阅读更多”按钮
+  authorbox = true                                              # 是否在页面底部显示作者框
+  toc = true                                                    # 是否启用目录
+  pager = true                                                  # 是否在页面底部显示分页导航（上一页/下一页）
+  post_meta = ["date", "categories"]                            # 文章元信息顺序"author", "translations"
+  mainSections = ["post", "blog", "news"]                       # 在主页和“最近文章”小部件上显示的部分页面
+  dateformat = "2006-01-02"                                     # 日期格式
+  mathjax = true                                                # 是否启用 MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"      # 指定 MathJax 路径
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"  # 指定 MathJax 配置
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"   # 加载 Google 字体
+  customCSS = ["css/custom.css"]                                # 包括自定义 CSS 文件
+  customJS = ["js/custom.js"]                                   # 包括自定义 JS 文件
+
+[Params.style.vars]                                             # 样式变量设置
+  highlightColor = "#e22d30"   # 高亮颜色
+
+  # 字体设置
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"               # 主要字体
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"  # 次要字体
+
+[Params.logo]                                                   # Logo 设置
+  image = "img/avatar.png"  # Logo 图片路径，relative to "static"
+  title = "HOBO'S BLOG"  # Logo 标题，否则将使用站点标题
+  subtitle = "孤帆一叶影波澜，独立轻舟任风摇"  # Logo 副标题
+
+[Params.thumbnail]                                              # 缩略图设置
+  visibility = ["list", "post"]   # 缩略图可见性
+
+
+[[menu.main]]                                                   # 设置菜单栏
+    name = "BLOG"
+    identifier = "blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "TECHONLOGY"
+    identifier = "tech"
+    url = "/categories/techonlogy/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url = "/docs/"
+    weight = 3
+
+[[menu.main]]
+    name = "LIFE"
+    identifier = "life"
+    url = "/categories/life/"
+    weight = 4
+
+
+
+[Params.sidebar]                                                # 侧边栏设置
+  home = "right"      # 主页布局
+  list = "left"       # 列表页布局
+  single = false      # 单页布局，控制阅读文章时是否显示侧边栏
+  widgets = ["search", "recent", "categories", "taglist", "social"]  # 启用的小部件顺序, "languages"
+
+[Params.widgets]                                                # 小部件设置
+  recent_num = 5                # “最近文章”小部件中的文章数量
+  categories_counter = false    # 在“分类”小部件中启用计数器
+  tags_counter = false          # 在“标签”小部件中启用计数器
+
+
+[Params.widgets.social]                                         # 社交小部件设置
+  cached = true                 # 如果为 true，则激活缓存
+  # 启用部分社交小部件
+  #facebook = "username"
+  #twitter = "username"
+  #instagram = "username"
+  #linkedin = "username"
+  #telegram = "username"
+  #gitlab = "username"
+  #bitbucket = "username"
+  github = "hobo-loco"
+  email = "hobo_loco@outlook.com"
+
+
+[Params.widgets.search]                                         # 搜索小部件设置
+  cached = true                 # 如果为 true，则激活缓存
+  url = "https://www.bing.com/search?q=%s"  # 搜索引擎 URL  (https://google.com/search)
+  [Params.widgets.search.input]
+    name = "sitesearch"         # 搜索框名称q1
+    pre = ""                    # 前缀site:

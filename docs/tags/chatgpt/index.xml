@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ChatGPT on Website of hobo loco</title>
+    <link>/tags/chatgpt/</link>
+    <description>Recent content in ChatGPT on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 05 Feb 2024 20:01:31 +0800</lastBuildDate>
+    <atom:link href="/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT好用的指令</title>
+      <link>/post/chatgpt%E5%A5%BD%E7%94%A8%E7%9A%84%E6%8C%87%E4%BB%A4/</link>
+      <pubDate>Mon, 05 Feb 2024 20:01:31 +0800</pubDate>
+      <guid>/post/chatgpt%E5%A5%BD%E7%94%A8%E7%9A%84%E6%8C%87%E4%BB%A4/</guid>
+      <description>&lt;p&gt;chatgpt指令在不同方面使用的技巧。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

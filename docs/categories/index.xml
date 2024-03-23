@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Website of hobo loco</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 23 Mar 2024 10:44:56 +0800</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>教程</title>
+      <link>/categories/%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 23 Mar 2024 10:44:56 +0800</pubDate>
+      <guid>/categories/%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PLC</title>
+      <link>/categories/plc/</link>
+      <pubDate>Sun, 11 Feb 2024 20:36:50 +0800</pubDate>
+      <guid>/categories/plc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>techonlogy</title>
+      <link>/categories/techonlogy/</link>
+      <pubDate>Sun, 11 Feb 2024 20:36:50 +0800</pubDate>
+      <guid>/categories/techonlogy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>定律</title>
+      <link>/categories/%E5%AE%9A%E5%BE%8B/</link>
+      <pubDate>Tue, 06 Feb 2024 21:16:34 +0800</pubDate>
+      <guid>/categories/%E5%AE%9A%E5%BE%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>life</title>
+      <link>/categories/life/</link>
+      <pubDate>Mon, 05 Feb 2024 21:08:54 +0800</pubDate>
+      <guid>/categories/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>golang</title>
+      <link>/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>/categories/golang/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

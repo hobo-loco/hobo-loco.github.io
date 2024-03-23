@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PWM on Website of hobo loco</title>
+    <link>/tags/pwm/</link>
+    <description>Recent content in PWM on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 06 Feb 2024 20:50:27 +0800</lastBuildDate>
+    <atom:link href="/tags/pwm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S7-1200PWM脉宽调制应用</title>
+      <link>/post/s7-1200pwm%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Tue, 06 Feb 2024 20:50:27 +0800</pubDate>
+      <guid>/post/s7-1200pwm%E8%84%89%E5%AE%BD%E8%B0%83%E5%88%B6%E5%BA%94%E7%94%A8/</guid>
+      <description>&lt;p&gt;使用西门子S7-1200 PLC通过PWM脉宽调制调节白炽灯亮度。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

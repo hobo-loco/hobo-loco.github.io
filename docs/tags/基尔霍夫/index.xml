@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>基尔霍夫 on Website of hobo loco</title>
+    <link>/tags/%E5%9F%BA%E5%B0%94%E9%9C%8D%E5%A4%AB/</link>
+    <description>Recent content in 基尔霍夫 on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 06 Feb 2024 21:20:41 +0800</lastBuildDate>
+    <atom:link href="/tags/%E5%9F%BA%E5%B0%94%E9%9C%8D%E5%A4%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基尔霍夫定律</title>
+      <link>/post/%E5%9F%BA%E5%B0%94%E9%9C%8D%E5%A4%AB%E5%AE%9A%E5%BE%8B/</link>
+      <pubDate>Tue, 06 Feb 2024 21:20:41 +0800</pubDate>
+      <guid>/post/%E5%9F%BA%E5%B0%94%E9%9C%8D%E5%A4%AB%E5%AE%9A%E5%BE%8B/</guid>
+      <description>&lt;p&gt;电机学基本定律之二：基尔霍夫定律。&#xA;用于分析电路中电压分布和电流流动的规律。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
