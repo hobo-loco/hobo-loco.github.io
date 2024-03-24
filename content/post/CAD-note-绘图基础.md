@@ -10,7 +10,7 @@ pager: false                             # 分页器
 tags:                                    # 标签
   - "CAD"
 categories:
-  - 教程
+  - NOTE
 ---
 
 基本操作涉及直线、圆、表格、文字，以及修剪、填充等命令。

@@ -11,7 +11,7 @@ tags:                                    # 标签
   - hugo
   - blog
 categories:
-  - 教程
+  - NOTE
 ---
 
 在Hugo中，通常`content`文件夹用于存储您网站的内容，而`docs`和`post`这样的文件夹可能被用于组织不同类型或不同主题的内容。

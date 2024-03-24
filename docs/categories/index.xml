@@ -6,20 +6,20 @@
     <description>Recent content in Categories on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Mar 2024 22:23:48 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 11:32:58 +0800</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NOTE</title>
+      <link>/categories/note/</link>
+      <pubDate>Sun, 24 Mar 2024 11:32:58 +0800</pubDate>
+      <guid>/categories/note/</guid>
+      <description></description>
+    </item>
     <item>
       <title>TECHNOLOGY</title>
       <link>/categories/technology/</link>
       <pubDate>Sat, 23 Mar 2024 22:23:48 +0800</pubDate>
       <guid>/categories/technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>教程</title>
-      <link>/categories/%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Sat, 23 Mar 2024 21:56:17 +0800</pubDate>
-      <guid>/categories/%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>

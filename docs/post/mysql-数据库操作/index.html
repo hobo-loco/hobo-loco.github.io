@@ -3,22 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>极数和槽数对电动机额定电流和空载电流的影 - Website of hobo loco</title>
+	<title>MySQL（一）数据库操作 - Website of hobo loco</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	<meta name="description" content="如何计算三相异步电动机的额定电流，以及极数和定子槽数对电动机额定电流和空载电流的影响是什么？">
-		<meta property="og:title" content="极数和槽数对电动机额定电流和空载电流的影" />
-<meta property="og:description" content="如何计算三相异步电动机的额定电流，以及极数和定子槽数对电动机额定电流和空载电流的影响是什么？" />
+	<meta name="description" content="">
+		<meta property="og:title" content="MySQL（一）数据库操作" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/%E6%9E%81%E6%95%B0%E5%92%8C%E6%A7%BD%E6%95%B0%E5%AF%B9%E7%94%B5%E5%8A%A8%E6%9C%BA%E9%A2%9D%E5%AE%9A%E7%94%B5%E6%B5%81%E5%92%8C%E7%A9%BA%E8%BD%BD%E7%94%B5%E6%B5%81%E7%9A%84%E5%BD%B1%E5%93%8D/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2024-03-23T22:23:48+08:00" />
-<meta property="article:modified_time" content="2024-03-23T22:23:48+08:00" />
+<meta property="og:url" content="/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-03-24T09:18:51+08:00" />
+<meta property="article:modified_time" content="2024-03-24T09:18:51+08:00" />
 
 
-		<meta itemprop="name" content="极数和槽数对电动机额定电流和空载电流的影">
-<meta itemprop="description" content="如何计算三相异步电动机的额定电流，以及极数和定子槽数对电动机额定电流和空载电流的影响是什么？"><meta itemprop="datePublished" content="2024-03-23T22:23:48+08:00" />
-<meta itemprop="dateModified" content="2024-03-23T22:23:48+08:00" />
-<meta itemprop="wordCount" content="39">
-<meta itemprop="keywords" content="电动机," />
+		<meta itemprop="name" content="MySQL（一）数据库操作">
+<meta itemprop="description" content=""><meta itemprop="datePublished" content="2024-03-24T09:18:51+08:00" />
+<meta itemprop="dateModified" content="2024-03-24T09:18:51+08:00" />
+<meta itemprop="wordCount" content="58">
+<meta itemprop="keywords" content="SQL,python," />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -97,10 +97,11 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">极数和槽数对电动机额定电流和空载电流的影</h1>
+			<h1 class="post__title">MySQL（一）数据库操作</h1>
+			<p class="post__lead">操作MySQL建立数据库</p>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-03-23T22:23:48&#43;08:00">2024-03-23</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/technology/" rel="category">TECHNOLOGY</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-03-24T09:18:51&#43;08:00">2024-03-24</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/note/" rel="category">NOTE</a>
 	</span>
 </div></div>
 		</header>
@@ -110,46 +111,64 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#计算三相异步电动机的额定电流">计算三相异步电动机的额定电流</a></li>
-    <li><a href="#极数和定子槽数对电动机的影响">极数和定子槽数对电动机的影响</a>
+    <li><a href="#数据库操作">数据库操作</a>
       <ul>
-        <li><a href="#极数的影响">极数的影响</a></li>
-        <li><a href="#定子槽数的影响">定子槽数的影响</a></li>
+        <li><a href="#链接数据库">链接数据库</a></li>
+        <li><a href="#退出数据库">退出数据库</a></li>
+        <li><a href="#显示数据库版本">显示数据库版本</a></li>
+        <li><a href="#显示时间">显示时间</a></li>
+        <li><a href="#查看所有数据库">查看所有数据库</a></li>
+        <li><a href="#创建数据库">创建数据库</a></li>
+        <li><a href="#查看创建数据库的语句">查看创建数据库的语句</a></li>
+        <li><a href="#查看当前使用的数据库">查看当前使用的数据库</a></li>
+        <li><a href="#使用数据库">使用数据库</a></li>
+        <li><a href="#删除数据库">删除数据库</a></li>
       </ul>
     </li>
-    <li><a href="#注意事项">注意事项</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p>关于如何计算三相异步电动机的额定电流，以及极数和定子槽数对电动机额定电流和空载电流的影响</p>
-<h2 id="计算三相异步电动机的额定电流">计算三相异步电动机的额定电流</h2>
-<p>三相异步电动机的额定电流可以通过以下公式计算：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>I = P / (√3 × V × cosφ × η)
-</span></span></code></pre></div><p>其中：</p>
-<ul>
-<li><code>I</code> 是电动机的额定电流（安培，A），</li>
-<li><code>P</code> 是电动机的额定功率（千瓦，kW），</li>
-<li><code>V</code> 是电动机的额定电压（伏特，V），</li>
-<li><code>cosφ</code> 是电动机的功率因数，</li>
-<li><code>η</code> 是电动机的效率（作为小数）。</li>
-</ul>
-<h2 id="极数和定子槽数对电动机的影响">极数和定子槽数对电动机的影响</h2>
-<h3 id="极数的影响">极数的影响</h3>
-<ul>
-<li><strong>额定电流：</strong> 极数的增加通常会导致电动机的同步速度降低，这可能需要更大的电流来产生足够的扭矩，尤其是在低速高扭矩的应用中。</li>
-<li><strong>空载电流：</strong> 极数增加可能会导致空载电流增加，因为低速度下维持电磁铁损和机械损耗所需的电流可能更高。</li>
-</ul>
-<h3 id="定子槽数的影响">定子槽数的影响</h3>
-<ul>
-<li><strong>额定电流：</strong> 定子槽数对电动机的额定电流影响相对较小，但是不适当的定子槽数可能会导致电机运行效率降低，间接影响电流需求。</li>
-<li><strong>空载电流：</strong> 定子槽数可以影响电机的磁通分布和谐波产生，进而影响空载运行时的电流。合适的定子槽数可以减少谐波损耗，从而降低空载电流。</li>
-</ul>
-<h2 id="注意事项">注意事项</h2>
-<ul>
-<li>计算和评估时，确保考虑电机的实际工作条件，包括负载特性和电源电压波动。</li>
-<li>极数和定子槽数的选择应根据电动机的应用场合和性能要求综合考虑，以实现最佳的运行效率和性能。</li>
-</ul>
+			<h2 id="数据库操作">数据库操作</h2>
+<h3 id="链接数据库">链接数据库</h3>
+<pre><code>mysql -uroot -p
+mysql -uroot -mysql
+</code></pre>
+<h3 id="退出数据库">退出数据库</h3>
+<pre><code>exit/quit/ctrl+d
+</code></pre>
+<blockquote>
+<p>注意：SQL语句最后需要有分号<code>；</code>作为结尾</p>
+</blockquote>
+<h3 id="显示数据库版本">显示数据库版本</h3>
+<pre><code>select version();
+</code></pre>
+<h3 id="显示时间">显示时间</h3>
+<pre><code>select now();
+</code></pre>
+<h3 id="查看所有数据库">查看所有数据库</h3>
+<pre><code>show database;
+</code></pre>
+<h3 id="创建数据库">创建数据库</h3>
+<pre><code>create database 数据库名 charset=utf8;
+create database python04;
+create database python04 charset=utf8;
+</code></pre>
+<h3 id="查看创建数据库的语句">查看创建数据库的语句</h3>
+<pre><code>show create database ....
+show create database python04;
+</code></pre>
+<h3 id="查看当前使用的数据库">查看当前使用的数据库</h3>
+<pre><code>select database();
+</code></pre>
+<h3 id="使用数据库">使用数据库</h3>
+<pre><code>use 数据库的名字
+use python04new;
+</code></pre>
+<h3 id="删除数据库">删除数据库</h3>
+<pre><code>drop database 数据库名；        -- 删库跑路就用这个
+drop database python04;
+</code></pre>
 		</div>
 		<footer class="post__footer">
 			
@@ -157,7 +176,10 @@
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/%E7%94%B5%E5%8A%A8%E6%9C%BA/" rel="tag">电动机</a>
+			<a class="tags__link btn" href="/tags/sql/" rel="tag">SQL</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/python/" rel="tag">python</a>
 		</li>
 	</ul>
 </div>
@@ -399,15 +421,15 @@ document.getElementById('randomQuote').innerHTML = randomQuote;
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/" rel="prev">
+		<a class="pager__link" href="/post/%E6%9E%81%E6%95%B0%E5%92%8C%E6%A7%BD%E6%95%B0%E5%AF%B9%E7%94%B5%E5%8A%A8%E6%9C%BA%E9%A2%9D%E5%AE%9A%E7%94%B5%E6%B5%81%E5%92%8C%E7%A9%BA%E8%BD%BD%E7%94%B5%E6%B5%81%E7%9A%84%E5%BD%B1%E5%93%8D/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">CAD绘图进阶</p>
+			<p class="pager__title">极数和槽数对电动机额定电流和空载电流的影</p>
 		</a>
 	</div>
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/" rel="next">
+		<a class="pager__link" href="/post/mysql-%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C/" rel="next">
 			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">MySQL（一）数据库操作</p>
+			<p class="pager__title">MySQL（二）数据表操作</p>
 		</a>
 	</div>
 </nav>

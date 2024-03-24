@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Website of hobo loco</title>
-    <link>/tags/python/</link>
-    <description>Recent content in python on Website of hobo loco</description>
+    <title>SQL on Website of hobo loco</title>
+    <link>/tags/sql/</link>
+    <description>Recent content in SQL on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 24 Mar 2024 11:32:58 +0800</lastBuildDate>
-    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL（三）数据的增删改查</title>
       <link>/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</link>
@@ -28,13 +28,6 @@
       <pubDate>Sun, 24 Mar 2024 09:18:51 +0800</pubDate>
       <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Python30天入门的学习内容</title>
-      <link>/post/python30%E5%A4%A9%E5%85%A5%E9%97%A8%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/</link>
-      <pubDate>Mon, 05 Feb 2024 21:08:54 +0800</pubDate>
-      <guid>/post/python30%E5%A4%A9%E5%85%A5%E9%97%A8%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/</guid>
-      <description>&lt;p&gt;30天入门Python的课程计划是一个很好的方式来系统学习这门语言。下面是一个概括性的课程计划，旨在帮助初学者从基础到一些进阶概念逐步学习Python。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

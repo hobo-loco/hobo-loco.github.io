@@ -6,8 +6,29 @@
     <description>Recent content in Posts on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Mar 2024 22:23:48 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 11:32:58 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL（三）数据的增删改查</title>
+      <link>/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</link>
+      <pubDate>Sun, 24 Mar 2024 11:32:58 +0800</pubDate>
+      <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;增删改查(curd):&lt;/strong&gt;&#xA;创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL（二）数据表操作</title>
+      <link>/post/mysql-%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sun, 24 Mar 2024 09:38:51 +0800</pubDate>
+      <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C/</guid>
+      <description>&lt;p&gt;数据表的增删改查是最常用的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL（一）数据库操作</title>
+      <link>/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sun, 24 Mar 2024 09:18:51 +0800</pubDate>
+      <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/</guid>
+      <description></description>
+    </item>
     <item>
       <title>极数和槽数对电动机额定电流和空载电流的影</title>
       <link>/post/%E6%9E%81%E6%95%B0%E5%92%8C%E6%A7%BD%E6%95%B0%E5%AF%B9%E7%94%B5%E5%8A%A8%E6%9C%BA%E9%A2%9D%E5%AE%9A%E7%94%B5%E6%B5%81%E5%92%8C%E7%A9%BA%E8%BD%BD%E7%94%B5%E6%B5%81%E7%9A%84%E5%BD%B1%E5%93%8D/</link>

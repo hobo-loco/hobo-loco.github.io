@@ -10,7 +10,7 @@ pager: false                             # 分页器
 tags:                                    # 标签
   - "CAD"
 categories:
-  - 教程
+  - NOTE
 ---
 较复杂的命令包括创建块、阵列、拉伸、倒角、标注、打印...
 <!--more-->

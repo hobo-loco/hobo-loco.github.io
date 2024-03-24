@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NOTE on Website of hobo loco</title>
+    <link>/categories/note/</link>
+    <description>Recent content in NOTE on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 24 Mar 2024 11:32:58 +0800</lastBuildDate>
+    <atom:link href="/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL（三）数据的增删改查</title>
+      <link>/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</link>
+      <pubDate>Sun, 24 Mar 2024 11:32:58 +0800</pubDate>
+      <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;增删改查(curd):&lt;/strong&gt;&#xA;创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL（二）数据表操作</title>
+      <link>/post/mysql-%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sun, 24 Mar 2024 09:38:51 +0800</pubDate>
+      <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C/</guid>
+      <description>&lt;p&gt;数据表的增删改查是最常用的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL（一）数据库操作</title>
+      <link>/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sun, 24 Mar 2024 09:18:51 +0800</pubDate>
+      <guid>/post/mysql-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CAD绘图进阶</title>
+      <link>/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/</link>
+      <pubDate>Sat, 23 Mar 2024 21:56:17 +0800</pubDate>
+      <guid>/post/cad-note-%E7%BB%98%E5%9B%BE%E8%BF%9B%E9%98%B6/</guid>
+      <description>&lt;p&gt;较复杂的命令包括创建块、阵列、拉伸、倒角、标注、打印&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAD绘图基础</title>
+      <link>/post/cad-note-%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Sat, 23 Mar 2024 21:36:55 +0800</pubDate>
+      <guid>/post/cad-note-%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80/</guid>
+      <description>&lt;p&gt;基本操作涉及直线、圆、表格、文字，以及修剪、填充等命令。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAD软件设置</title>
+      <link>/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Sat, 23 Mar 2024 20:07:38 +0800</pubDate>
+      <guid>/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;p&gt;绘图前应先完成调整软件的工作，调出常用的工具栏、调整光标和命令行、定义图层等。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Everything Is Here</title>
+      <link>/docs/everything-is-here/</link>
+      <pubDate>Sat, 23 Mar 2024 10:44:56 +0800</pubDate>
+      <guid>/docs/everything-is-here/</guid>
+      <description>&lt;p&gt;在Hugo中，通常&lt;code&gt;content&lt;/code&gt;文件夹用于存储您网站的内容，而&lt;code&gt;docs&lt;/code&gt;和&lt;code&gt;post&lt;/code&gt;这样的文件夹可能被用于组织不同类型或不同主题的内容。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

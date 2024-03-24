@@ -112,5 +112,5 @@ theme = "mainroad"
   cached = true                 # 如果为 true，则激活缓存
   url = "https://www.bing.com/search?q=%s"  # 搜索引擎 URL  (https://google.com/search)
   [Params.widgets.search.input]
-    name = "sitesearch"         # 搜索框名称q1
-    pre = ""                    # 前缀site:
+    name = "sitesearch"         # 搜索框名称sitesearch/
+    pre = ""                    # 前缀site:/
