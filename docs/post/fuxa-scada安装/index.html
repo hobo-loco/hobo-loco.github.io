@@ -3,24 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MySQL（三）数据的增删改查 - Website of hobo loco</title>
+	<title>FUXA SCADA安装 - Website of hobo loco</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="MySQL（三）数据的增删改查" />
-<meta property="og:description" content="增删改查(curd):
-创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)" />
+		<meta property="og:title" content="FUXA SCADA安装" />
+<meta property="og:description" content="FUXA是一个在GitHub上开源SCADA系统。可用来实现对机器和实时数据的可视化。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2024-03-24T11:32:58+08:00" />
-<meta property="article:modified_time" content="2024-03-24T11:32:58+08:00" />
+<meta property="og:url" content="/post/fuxa-scada%E5%AE%89%E8%A3%85/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-03-24T18:02:54+08:00" />
+<meta property="article:modified_time" content="2024-03-24T18:02:54+08:00" />
 
 
-		<meta itemprop="name" content="MySQL（三）数据的增删改查">
-<meta itemprop="description" content="增删改查(curd):
-创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)"><meta itemprop="datePublished" content="2024-03-24T11:32:58+08:00" />
-<meta itemprop="dateModified" content="2024-03-24T11:32:58+08:00" />
-<meta itemprop="wordCount" content="186">
-<meta itemprop="keywords" content="SQL,python," />
+		<meta itemprop="name" content="FUXA SCADA安装">
+<meta itemprop="description" content="FUXA是一个在GitHub上开源SCADA系统。可用来实现对机器和实时数据的可视化。"><meta itemprop="datePublished" content="2024-03-24T18:02:54+08:00" />
+<meta itemprop="dateModified" content="2024-03-24T18:02:54+08:00" />
+<meta itemprop="wordCount" content="62">
+<meta itemprop="keywords" content="FUXA,SCADA," />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -99,10 +97,10 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">MySQL（三）数据的增删改查</h1>
+			<h1 class="post__title">FUXA SCADA安装</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-03-24T11:32:58&#43;08:00">2024-03-24</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/note/" rel="category">NOTE</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-03-24T18:02:54&#43;08:00">2024-03-24</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/ntechnology/" rel="category">NTECHNOLOGY</a>
 	</span>
 </div></div>
 		</header>
@@ -112,94 +110,82 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#安装并运行">安装并运行</a>
       <ul>
-        <li><a href="#增加">增加</a></li>
-        <li><a href="#修改">修改</a></li>
-        <li><a href="#删除">删除</a></li>
-        <li><a href="#查询基本使用">查询基本使用</a></li>
+        <li><a href="#安装">安装</a></li>
+        <li><a href="#运行">运行</a></li>
+      </ul>
+    </li>
+    <li><a href="#使用">使用</a>
+      <ul>
+        <li><a href="#连接设备并配置标签">连接设备并配置标签</a></li>
       </ul>
     </li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p><strong>增删改查(curd):</strong>
-创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)</p>
-<h3 id="增加">增加</h3>
+			<p>FUXA是一个在GitHub上开源SCADA系统。可用来实现对机器和实时数据的可视化。</p>
+<h2 id="安装并运行">安装并运行</h2>
+<p><strong>首先，介绍一点儿在命令行中操作的技巧：</strong></p>
+<pre tabindex="0"><code>同盘操作：
+    cd 下一级文件夹名称                    # 进入下一级目录
+    cd 下一级文件夹名称/下下级文件夹名称    # 进入下下级文件夹
+
+    cd ..       # 返回上一级目录
+</code></pre><pre tabindex="0"><code>不同盘操作：
+    D:          # 切换到D盘根目录
+</code></pre><h3 id="安装">安装</h3>
+<p>软件的下载依据电脑操作系统。</p>
+<ol>
+<li>
+<p>安装 <strong><a href="https://nodejs.org/en/download">Node</a></strong>。</p>
 <ul>
-<li>全列插入</li>
+<li>安装目录可以保持默认，本次修改为了<code>C:\nodejs</code>。</li>
+<li>npm是Nodejs下的包管理器，安装node时将连带安装。</li>
+<li>安装过程中会自动下载一些必要的软件。</li>
 </ul>
-<pre tabindex="0"><code>    insert into 表名 valyes(...)
-    主键字段可以用0、null、default来占位。
-    eg.
-    insert into classes valves(0,菜鸟班)；  # 向classes表中插入一个班级
-    insert into students values(0, &#34;小李飞刀&#34;, 20, &#34;女&#34;, 1, &#34;1990/1/1&#34;);    # 向students表中插入一个学生信息
-</code></pre><blockquote>
-<p>枚举(enum)中的下标从1开始。如：性别是一个枚举类型enum(&lsquo;男&rsquo;,&lsquo;女&rsquo;,&lsquo;中性&rsquo;)，则1=男、2=女</p>
-</blockquote>
-<ul>
-<li>部分插入</li>
-</ul>
-<pre tabindex="0"><code>    insert into 表名(列1,...) values(值1,...)
-    insert into students (name, gender) values (&#34;小乔&#34;,2);
-</code></pre><blockquote>
-<p>在部分插入时，数据表中约束为不许为空的列需要有</p>
-</blockquote>
-<ul>
-<li>多行插入</li>
-</ul>
-<pre tabindex="0"><code>    insert into students (name, gender) values (&#34;小乔&#34;,2),(&#34;大乔&#34;,2);
-</code></pre><h3 id="修改">修改</h3>
-<pre><code>update 表名 set 列1=值1,列2=值2... where 条件;
-update students set gender=1；                  #修改students表中所有行，将性别改为男
-update students set gender=1 where id=3;        #修改students表中id=3的那行，将性别改为男
-update students set age=22,gender=1 where id=3; #修改students表中id=3的那行，将年龄改为22、性别改为男
-</code></pre>
 <blockquote>
-<p><strong>where 条件</strong>，当某行满足该条件时，对这行进行修改</p>
+<p>node版本请选择<code>v16.20.2</code>，较新的版本目前不兼容FUXA</p>
 </blockquote>
-<h3 id="删除">删除</h3>
-<ul>
+<p>安装完成后，在命令行中输入<code>node -v</code>查询是否安装成功；输入<code>echo %PATH%</code>，查看输出中是否自动添加了nodejs环境变量；输入<code>npm -v</code>查看npm是否安装成功。</p>
+</li>
 <li>
-<p>物理删除</p>
-<p>真的删除，使用deiete</p>
-<pre tabindex="0"><code>    delete frome 表名 where 条件;
-    eg.
-    delete frome students;                         #  删除students数据表
-    delete frome students where name=&#34;小李飞刀&#34;;    # 删除students数据表中姓名为小李飞刀的行 
-</code></pre></li>
-<li>
-<p>逻辑删除</p>
-<p>不是真的删除，使用update</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SQL" data-lang="SQL"><span style="display:flex;"><span>  <span style="color:#75715e">-- 用一个字段来表示这条信息是否已经不再使用了。
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">-- 给students表添加一个is_delete字段  bit  类型
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">alter</span> <span style="color:#66d9ef">table</span> students <span style="color:#66d9ef">add</span> is_delete bit <span style="color:#66d9ef">default</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">update</span> students <span style="color:#66d9ef">set</span> is_delete<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">where</span> id<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;
-</span></span></code></pre></div></li>
-</ul>
-<h3 id="查询基本使用">查询基本使用</h3>
+<p>安装 <strong><a href="https://github.com/frangoteam/FUXA">FUXA</a></strong>。</p>
 <ul>
-<li>查询所有列</li>
+<li>安装FUXA有多种方法，可参考官方说明。本次采用下载压缩包并解压再用npm安装的方式。</li>
 </ul>
-<pre tabindex="0"><code>select * from 表名;
-eg.
-select * frome classes;               -- * 表示全部取出来
-select * from students where id&lt;9;    -- 取出id&lt;9的行
+<pre tabindex="0"><code> cd ./server     # 进入到FUXA解压后的server文件夹
+ npm install     # 键入此命令进行安装
+ npm start       # 键入此命令启动
 </code></pre><ul>
-<li>查询指定列</li>
+<li>
+<p>在浏览器输入键入<code>npm start</code>命令返回的网址，进入FUXA</p>
+<p>停止，暂时用的<code>Ctrl + c</code></p>
+</li>
 </ul>
-<pre tabindex="0"><code>select 列1,列2,... frome 表名;
-eg.
-select id,name frome classes;          # 查询classes表中id、name两列，输出结果只显示这两列
-</code></pre><blockquote>
-<p>可以使用as作为列或表指定别名，详见下↓</p>
-</blockquote>
-<pre tabindex="0"><code>    select 字段1 as 别名1,字段2 as 别名2 from 数据表 where 条件;
-    eg.
-    select name as 姓名,gender as 性别 frome students;      # 查询students表中的name、gender两列；并使用姓名代替name、使用性别代替gender
-</code></pre><p><strong>字段的顺序</strong>：谁在前边就先显示谁，仍以上例解释：</p>
-<pre><code>select gender as 性别,name as 姓名 frome students;</code></pre>
+</li>
+</ol>
+<h3 id="运行">运行</h3>
+<ul>
+<li>
+<p>打开Chrome浏览器，进入地址<code>http://localhost:1881</code>。</p>
+</li>
+<li>
+<p>FUXA 由两个不同的视图组成：</p>
+<ol>
+<li>
+<p>最终用户可视化:<code>http://localhost:1881/home</code></p>
+</li>
+<li>
+<p>项目和设计编辑器:<code>http://localhost:1881/editor</code></p>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="使用">使用</h2>
+<p><strong><a href="https://github.com/frangoteam/FUXA/wiki">FUXA Wiki</a></strong></p>
+<h3 id="连接设备并配置标签">连接设备并配置标签</h3>
 		</div>
 		<footer class="post__footer">
 			
@@ -207,10 +193,10 @@ select id,name frome classes;          # 查询classes表中id、name两列，�
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/sql/" rel="tag">SQL</a>
+			<a class="tags__link btn" href="/tags/fuxa/" rel="tag">FUXA</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/python/" rel="tag">python</a>
+			<a class="tags__link btn" href="/tags/scada/" rel="tag">SCADA</a>
 		</li>
 	</ul>
 </div>
@@ -452,15 +438,9 @@ document.getElementById('randomQuote').innerHTML = randomQuote;
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/post/mysql-%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%93%8D%E4%BD%9C/" rel="prev">
+		<a class="pager__link" href="/post/mysql-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">MySQL（二）数据表操作</p>
-		</a>
-	</div>
-	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/post/fuxa-scada%E5%AE%89%E8%A3%85/" rel="next">
-			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">FUXA SCADA安装</p>
+			<p class="pager__title">MySQL（三）数据的增删改查</p>
 		</a>
 	</div>
 </nav>

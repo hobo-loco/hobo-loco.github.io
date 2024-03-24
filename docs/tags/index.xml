@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Mar 2024 11:32:58 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 18:02:54 +0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FUXA</title>
+      <link>/tags/fuxa/</link>
+      <pubDate>Sun, 24 Mar 2024 18:02:54 +0800</pubDate>
+      <guid>/tags/fuxa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SCADA</title>
+      <link>/tags/scada/</link>
+      <pubDate>Sun, 24 Mar 2024 18:02:54 +0800</pubDate>
+      <guid>/tags/scada/</guid>
+      <description></description>
+    </item>
     <item>
       <title>python</title>
       <link>/tags/python/</link>

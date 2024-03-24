@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SCADA on Website of hobo loco</title>
+    <link>/tags/scada/</link>
+    <description>Recent content in SCADA on Website of hobo loco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 24 Mar 2024 18:02:54 +0800</lastBuildDate>
+    <atom:link href="/tags/scada/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FUXA SCADA安装</title>
+      <link>/post/fuxa-scada%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Sun, 24 Mar 2024 18:02:54 +0800</pubDate>
+      <guid>/post/fuxa-scada%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;p&gt;FUXA是一个在GitHub上开源SCADA系统。可用来实现对机器和实时数据的可视化。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
