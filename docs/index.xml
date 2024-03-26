@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 26 Mar 2024 22:27:23 +0800</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>F组态王入门笔记</title>
+      <title>组态王入门笔记</title>
       <link>/post/%E7%BB%84%E6%80%81%E7%8E%8B%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Tue, 26 Mar 2024 22:27:23 +0800</pubDate>
       <guid>/post/%E7%BB%84%E6%80%81%E7%8E%8B%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
+      <description>&lt;p&gt;组态王如何新建工程，以及与下位机连接。&lt;/p&gt;</description>
     </item>
     <item>
       <title>FUXA SCADA安装</title>
