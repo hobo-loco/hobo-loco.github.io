@@ -10,7 +10,7 @@ categories:
     - NOTE
 ---
 **增删改查(curd):**
-创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)
+创建(Create)、更新(Updata)、读取(Read) 和删除(Delete)。
 
 <!--more-->
 

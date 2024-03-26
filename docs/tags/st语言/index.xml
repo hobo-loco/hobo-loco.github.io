@@ -13,7 +13,7 @@
       <link>/post/%E7%BA%A2%E7%BB%BF%E7%81%AF%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/</link>
       <pubDate>Sun, 11 Feb 2024 20:36:50 +0800</pubDate>
       <guid>/post/%E7%BA%A2%E7%BB%BF%E7%81%AF%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/</guid>
-      <description>&lt;p&gt;这是一个简单的红绿灯控制程序示例，使用结构化文本（ST）语言编写。该程序模拟了一个基本的红绿灯交通信号控制逻辑，通过定时器控制红灯、绿灯和黄灯的切换。&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是一个使用结构化文本（ST）语言编写的简单红绿灯控制程序。该程序模拟了一个基本的红绿灯交通信号控制逻辑，通过定时器控制红灯、绿灯和黄灯的切换。&lt;/p&gt;</description>
     </item>
     <item>
       <title>单按钮循环启停三台电机的程序</title>

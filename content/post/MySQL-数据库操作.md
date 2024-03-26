@@ -1,7 +1,7 @@
 ---
 title: "MySQL（一）数据库操作"
 date: 2024-03-24T09:18:51+08:00
-lead: 操作MySQL建立数据库   # 导言
+#lead:   # 导言
 description: ""
 tags:
     - SQL
@@ -10,6 +10,7 @@ categories:
     - NOTE
 ---
 
+操作MySQL建立数据库。
 
 <!--more-->
 

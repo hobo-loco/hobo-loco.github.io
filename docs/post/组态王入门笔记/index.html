@@ -3,22 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>红绿灯控制程序 - Website of hobo loco</title>
+	<title>F组态王入门笔记 - Website of hobo loco</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="红绿灯控制程序" />
-<meta property="og:description" content="这是一个使用结构化文本（ST）语言编写的简单红绿灯控制程序。该程序模拟了一个基本的红绿灯交通信号控制逻辑，通过定时器控制红灯、绿灯和黄灯的切换。" />
+		<meta property="og:title" content="F组态王入门笔记" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/%E7%BA%A2%E7%BB%BF%E7%81%AF%E6%8E%A7%E5%88%B6%E7%A8%8B%E5%BA%8F/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2024-02-11T20:36:50+08:00" />
-<meta property="article:modified_time" content="2024-02-11T20:36:50+08:00" />
+<meta property="og:url" content="/post/%E7%BB%84%E6%80%81%E7%8E%8B%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-03-26T22:27:23+08:00" />
+<meta property="article:modified_time" content="2024-03-26T22:27:23+08:00" />
 
 
-		<meta itemprop="name" content="红绿灯控制程序">
-<meta itemprop="description" content="这是一个使用结构化文本（ST）语言编写的简单红绿灯控制程序。该程序模拟了一个基本的红绿灯交通信号控制逻辑，通过定时器控制红灯、绿灯和黄灯的切换。"><meta itemprop="datePublished" content="2024-02-11T20:36:50+08:00" />
-<meta itemprop="dateModified" content="2024-02-11T20:36:50+08:00" />
-<meta itemprop="wordCount" content="277">
-<meta itemprop="keywords" content="ST语言," />
+		<meta itemprop="name" content="F组态王入门笔记">
+<meta itemprop="description" content=""><meta itemprop="datePublished" content="2024-03-26T22:27:23+08:00" />
+<meta itemprop="dateModified" content="2024-03-26T22:27:23+08:00" />
+<meta itemprop="wordCount" content="136">
+<meta itemprop="keywords" content="组态王,SCADA," />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -97,10 +97,10 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">红绿灯控制程序</h1>
+			<h1 class="post__title">F组态王入门笔记</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-02-11T20:36:50&#43;08:00">2024-02-11</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/technology/" rel="category">TECHNOLOGY</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-03-26T22:27:23&#43;08:00">2024-03-26</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/ntechnology/" rel="category">NTECHNOLOGY</a>
 	</span>
 </div></div>
 		</header>
@@ -110,112 +110,220 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#组态王入门">组态王入门</a>
       <ul>
-        <li><a href="#程序示例">程序示例</a></li>
-        <li><a href="#程序解析">程序解析</a></li>
-        <li><a href="#扩展示例">扩展示例</a></li>
-        <li><a href="#注释及解析">注释及解析</a></li>
+        <li><a href="#创建组态王工程">创建组态王工程</a></li>
+        <li><a href="#定义io设备">定义I/O设备</a></li>
+        <li><a href="#数据库建点">数据库建点</a></li>
+        <li><a href="#创建组态画面">创建组态画面</a></li>
+        <li><a href="#建立动画连接">建立动画连接</a></li>
+        <li><a href="#运行和调试">运行和调试</a></li>
       </ul>
     </li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
-			<p>这是一个使用结构化文本（ST）语言编写的简单红绿灯控制程序。该程序模拟了一个基本的红绿灯交通信号控制逻辑，通过定时器控制红灯、绿灯和黄灯的切换。</p>
-<h3 id="程序示例">程序示例</h3>
-<p>程序的核心思路是使用一个状态机（state machine）来管理红绿灯的状态。状态机有几个状态：红灯亮（Red）、绿灯亮（Green）、黄灯亮（Yellow）及黄灯亮前的绿灯（GreenToYellow）。每个状态都有一个对应的持续时间，在该时间结束后转换到下一个状态。</p>
-<pre tabindex="0"><code class="language-pascal" data-lang="pascal">VAR
-    Timer: TON; // 定时器用于控制灯的切换
-    State: INT := 0; // 红绿灯的当前状态，0=红灯，1=绿灯，2=绿灯转黄灯，3=黄灯
-    RedLight: BOOL := FALSE; // 红灯状态
-    GreenLight: BOOL := FALSE; // 绿灯状态
-    YellowLight: BOOL := FALSE; // 黄灯状态
-END_VAR
-</code></pre><p>主控制逻辑部分：</p>
-<pre tabindex="0"><code class="language-pascal" data-lang="pascal">CASE State OF
-    0: // 红灯状态
-        RedLight := TRUE;
-        GreenLight := FALSE;
-        YellowLight := FALSE;
-        Timer(IN := NOT Timer.Q, PT := T#10s); // 红灯亮持续10秒
-        IF Timer.Q THEN
-            State := 1; // 切换到绿灯状态
-            Timer(IN := FALSE); // 重置定时器
-        END_IF;
+			<h2 id="组态王入门">组态王入门</h2>
+<h3 id="创建组态王工程">创建组态王工程</h3>
+<p>首先为工程指定<strong>工作目录</strong>（即工程路径），组态王用工作目录标识工程，每个工程必须建立在单独的目录中。工作目录下的文件由组态王自动管理。</p>
+<pre><code>1. 菜单栏&quot;文件/新建工程&quot;或直接单击&quot;新建&quot;
+2. 菜单栏&quot;工具/切换到开发系统&quot;
+</code></pre>
+<h3 id="定义io设备">定义I/O设备</h3>
+<p>只有定义了外部设备，组态王才能通过I/O变量和它们交换数据。下面以PLC与组态王连接为例。</p>
+<blockquote>
+<p>安装完组态王后，还须安装组态王驱动</p>
+</blockquote>
+<h4 id="plc通过串口连接组态王">PLC通过串口连接组态王</h4>
+<pre><code>* 组态王为主站，PLC为从站；
 
-    1: // 绿灯状态
-        RedLight := FALSE;
-        GreenLight := TRUE;
-        YellowLight := FALSE;
-        Timer(IN := NOT Timer.Q, PT := T#15s); // 绿灯亮持续15秒
-        IF Timer.Q THEN
-            State := 2; // 切换到绿灯转黄灯状态
-            Timer(IN := FALSE); // 重置定时器
-        END_IF;
+* PLC从站地址1、波特率19200、数据位8位、停止位1位、偶校验、通讯物理线路RS485
+</code></pre>
+<blockquote>
+<p>上述设置根据实际PLC进行确定。</p>
+</blockquote>
+<p>选择<strong>工程浏览器</strong>左侧<code>设备/COM1</code>，双击右侧<code>新建</code>，运行设备配置向导：</p>
+<ol>
+<li>
+<p>设备配置向导中选择对应PLC的通讯协议，如<code>莫迪康/ModbusRTU/COM</code></p>
+<ol>
+<li>给PLC命名，以便识别</li>
+<li>选择串口号，如<code>COM5</code>（与电脑连线的串口号相同）</li>
+<li>设置PLC从站地址，如<code>1</code>（如需自定义，需要在PLC中更改）</li>
+<li>通信参数，默认</li>
+</ol>
+</li>
+<li>
+<p>左侧<code>设备/COM5</code>设置串口参数（COM5）</p>
+<ol>
+<li>波特率：19200</li>
+<li>奇偶校验：偶校验</li>
+<li>数据位：8</li>
+<li>停止位：1</li>
+<li>通信方式：RS485</li>
+</ol>
+</li>
+</ol>
+<p>完成上述操作后，在<strong>工程浏览器</strong>右侧可看到新建的PLC名称。定义数据变量时，只要把I/O变量连接到这台设备上，两者就可交换数据了。</p>
+<p>单击工具栏中&rsquo;VIEW&rsquo;按钮，切换到运行状态。如报错，则根据提示信息解决。</p>
+<h4 id="plc通过网口连接组态王">PLC通过网口连接组态王</h4>
+<pre><code>* 组态王为服务器端（从），电脑IP地址：192.168.1.99
 
-    2: // 绿灯转黄灯状态
-        Timer(IN := NOT Timer.Q, PT := T#3s); // 绿灯亮额外3秒
-        IF Timer.Q THEN
-            State := 3; // 切换到黄灯状态
-            Timer(IN := FALSE); // 重置定时器
-        END_IF;
+* PLC为客户端（主），PLC的IP地址：192.168.1.110
 
-    3: // 黄灯状态
-        RedLight := FALSE;
-        GreenLight := FALSE;
-        YellowLight := TRUE;
-        Timer(IN := NOT Timer.Q, PT := T#5s); // 黄灯亮持续5秒
-        IF Timer.Q THEN
-            State := 0; // 切换回红灯状态
-            Timer(IN := FALSE); // 重置定时器
-        END_IF;
-END_CASE;
-</code></pre><h3 id="程序解析">程序解析</h3>
-<ul>
-<li><strong>变量声明：</strong> 定义了控制灯状态的变量（<code>RedLight</code>, <code>GreenLight</code>, <code>YellowLight</code>）和一个定时器（<code>Timer</code>）来管理状态转换的时间。<code>State</code>变量用于追踪当前的红绿灯状态。</li>
-<li><strong>状态机逻辑：</strong> 使用<code>CASE</code>语句实现了状态机。根据<code>State</code>的值，程序决定当前应该亮起的灯以及下一状态的转换。</li>
-<li><strong>定时器控制：</strong> 每个状态都有一个对应的定时器设置（<code>PT</code>），用于决定当前状态持续的时间。当定时器的<code>Q</code>输出为<code>TRUE</code>时，表示当前状态的时间已到，程序将切换到下一个状态。</li>
-<li><strong>状态转换：</strong> 每个状态末尾都有逻辑判断定时器是否完成计时（<code>Timer.Q</code>），如果完成，则转换到下一个状态，并重置定时器以准备下一个状态的计时。</li>
-</ul>
-<p>这个程序是一个基本的红绿灯控制逻辑示例，实际应用中可能需要根据交通流量、行人过街需求、紧急车辆优先等因素进行调整和扩展。例如，可以添加传感器输入来优化灯光切换逻辑，或者引入更多状态来处理特殊情况，如行人过街信号。</p>
-<h3 id="扩展示例">扩展示例</h3>
-<p>假设我们要为行人添加一个过街请求按钮和对应的信号灯控制。我们可以引入一个新的状态来表示行人过街信号，并通过外部按钮输入来触发这个状态。为了简化示例，我们在原有的逻辑基础上做一些扩展：</p>
-<pre tabindex="0"><code class="language-pascal" data-lang="pascal">VAR
-    PedestrianButtonPressed: BOOL; // 行人请求按钮状态
-    PedestrianLight: BOOL := FALSE; // 行人过街信号灯状态
-END_VAR
-</code></pre><p>在主控制逻辑部分，我们添加一个新的状态来处理行人过街请求：</p>
-<pre tabindex="0"><code class="language-pascal" data-lang="pascal">CASE State OF
-    // 原有的红灯、绿灯、绿灯转黄灯、黄灯状态不变
-
-    4: // 行人过街信号状态
-        RedLight := TRUE; // 确保车辆红灯亮起
-        GreenLight := FALSE;
-        YellowLight := FALSE;
-        PedestrianLight := TRUE; // 行人过街灯亮
-        Timer(IN := NOT Timer.Q, PT := T#10s); // 行人过街灯亮持续10秒
-        IF Timer.Q THEN
-            State := 0; // 返回到车辆红灯状态
-            PedestrianLight := FALSE; // 关闭行人过街灯
-            Timer(IN := FALSE); // 重置定时器
-        END_IF;
-END_CASE;
-
-// 在适当的位置（比如在CASE语句之前）检测行人按钮是否被按下
-IF PedestrianButtonPressed AND State &lt;&gt; 4 THEN
-    State := 4; // 如果检测到行人按钮被按下，切换到行人过街状态
-    Timer(IN := FALSE); // 重置定时器准备行人过街信号计时
-END_IF;
-</code></pre><h3 id="注释及解析">注释及解析</h3>
-<ul>
-<li>在这个扩展示例中，我们添加了处理行人过街请求的逻辑。当行人按下过街按钮时，系统会切换到一个新的状态，在该状态下行人过街信号灯亮起，同时确保车辆信号灯为红灯。</li>
-<li>引入<code>PedestrianButtonPressed</code>变量来表示行人请求按钮的状态。这个变量需要根据实际按钮输入进行更新。</li>
-<li>引入<code>PedestrianLight</code>变量来控制行人过街信号灯的状态。</li>
-<li>在红绿灯控制逻辑中加入一个新的状态（例如状态4）来处理行人过街信号。在这个状态下，行人过街信号灯亮起，并设置一个定时器来控制信号灯的持续时间。</li>
-<li>通过检测<code>PedestrianButtonPressed</code>的状态来触发行人过街信号。如果行人请求按钮被按下，并且当前不在行人过街信号状态，系统将切换到行人过街信号状态。</li>
-</ul>
-<p>这个扩展示例展示了如何在基本的红绿灯控制程序中加入额外的功能来处理更复杂的交通控制需求。在实际应用中，根据具体需求还可能需要进一步调整和优化程序逻辑。</p>
+* 通讯物理线路为普通网线
+</code></pre>
+<blockquote>
+<p>本例为PLC标配网口，内置<code>Modbus-TCP</code>客户端（主）/服务器（从）协议</p>
+</blockquote>
+<hr>
+<p>设备配置向导中选择相应的通讯协议，如<code>莫迪康/ModbusTCP/TCP</code></p>
+<ol>
+<li>
+<p>给PLC命名，以便区分</p>
+</li>
+<li>
+<p>任选一个COM口，<strong>不能与电脑设备管理器中的端口一样</strong></p>
+<blockquote>
+<p>注2：组态王中，网络设备需要选择串口的原因：一个设备接口（如COM1、网卡）开启一个线程</p>
+</blockquote>
+</li>
+<li>
+<p>填写PLC的IP地址、端口，如：&lsquo;192.168.1.110	1&rsquo;</p>
+<pre tabindex="0"><code>    * IP         PLC的IP地址
+    * Port       Modbus协议对应的端口，默认502
+    * Address    Modbus的PLC从站地址，范围1-255
+    * TimeOut    网络超时（不写默认30秒）
+    * &#39;[ ]&#39;      &#39;[ ]&#39;内不写采用驱动默认值，写则采用用户自定义值
+</code></pre></li>
+</ol>
+<blockquote>
+<p>本例中只填了PLC的IP地址192.168.1.110，和站地址1，其它不填采用默认值</p>
+</blockquote>
+<ol start="4">
+<li>通信参数，默认</li>
+</ol>
+<hr>
+<h3 id="数据库建点">数据库建点</h3>
+<p>数据库是连接上位机和下位机的桥梁。数据库中变量的集合，形象的成为<strong>数据词典</strong>，数据词典记录了所有用户可使用的数据变量的详细信息。</p>
+<p>组态王变量地址连接到PLC变量地址。</p>
+<p>组态王中变量的偏移地址，都是以1为起始地址的。注意PLC中变量的地址便宜。</p>
+<h4 id="新建变量并连接到plc的地址">新建变量并连接到PLC的地址</h4>
+<ol>
+<li>
+<p><strong>工程浏览器</strong>左侧<code>数据库/数据词典/新建</code>，弹出<strong>变量属性</strong>对话框</p>
+</li>
+<li>
+<p>定义变量</p>
+<ol>
+<li>
+<p>变量名：用户定义的名称</p>
+</li>
+<li>
+<p><strong>变量类型</strong>：有内存和I/O两大类，内存是指组态软件内部的变量，跟PLC无关；I/O类是跟PLC相关的</p>
+<pre tabindex="0"><code>I/O离散：   对应PLC的开关量，即0和1开头的变量
+I/O整型：   对应PLC的模拟量，即3和4开头的变量，不带小数点的整数
+I/O实数：   对应PLC的模拟量，即3和4开头的变量，带小数点的浮点数
+I/O字符串： 用于记录一些有特定含义的字符串，如名称、密码
+</code></pre></li>
+<li>
+<p>变量灵敏度：数据类型为整型或实数时此项才有效。只有当该数据变量的值，变化幅度超过<code>变量灵敏度</code>时，<strong>组态王</strong>才更新与之相连接的画面显示（缺省为0）</p>
+</li>
+<li>
+<p>最小值/最大值：指该变量在组态王显示的下限/上限</p>
+</li>
+<li>
+<p>最小原始值/最大原始值：组态王从PLC读取的原始模拟值的下限/上限</p>
+</li>
+<li>
+<p>保存参数：系统运行时，若变量的类型发生了变化，组态王退出时，系统自动保存该类型，下次启动后，变量的初始类型为上次保存的类型</p>
+</li>
+<li>
+<p>保存数值：系统运行时，若变量的值发生了变化，组态王退出时，系统自动保存该值，下次启动后，变量的初始值恢复为上次系统退出时保存的值。</p>
+</li>
+<li>
+<p><strong>初始值</strong>：组态王开始运行时的初始值，一般为<strong>关</strong></p>
+</li>
+<li>
+<p><strong>连接设备</strong>：哪个PLC的变量</p>
+</li>
+<li>
+<p><strong>寄存器</strong>：连接PLC的哪个变量，填写对应的PLC变量地址（某些PLC可能需转换）</p>
+</li>
+<li>
+<p>采集频率：当采集频率为0时，只要组态王上的值发生变化，就会进行写PLC操作；当采集频率不为0时，按照采集频率，周期性的输出值到PLC</p>
+</li>
+<li>
+<p>转换方式：通过什么方式把PLC的模拟量输入值转换为组态王数据库值，一般是<strong>线性</strong></p>
+</li>
+<li>
+<p><strong>数据类型</strong>：定义PLC变量的寄存器的数据类型，共9中，如下:</p>
+<pre tabindex="0"><code>BIT:     1位，（0或1）
+BYTE:    8位，1个字节，（0~255）
+SHORT:   16位，2字节，（-32768~32767）
+USHORT:  16位，2字节，（0~65535）
+BCD:     16位，2字节，（0~9999）
+LONG:    32位，4字节，（-2147483648~2147483647）
+LONGBCD: 32位，4字节，（0~4294967295）
+FLOAT:   32位，4字节，（-3.40E+38~+3.40E+38，有效位7位）
+STEING:  128个字符长度
+</code></pre></li>
+<li>
+<p><strong>读写属性</strong>：只读/只写/读写</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="创建组态画面">创建组态画面</h3>
+<h4 id="新建画面">新建画面</h4>
+<p><strong>工程浏览器</strong>左侧<code>文件/画面</code>，双击右侧的<code>新建</code>图标，弹出画面属性对话框：</p>
+<ol>
+<li>
+<p>画面属性</p>
+<ol>
+<li>
+<p><strong>画面名称</strong>：</p>
+</li>
+<li>
+<p>对应文件：</p>
+</li>
+<li>
+<p>画面位置：</p>
+</li>
+<li>
+<p>画面风格：</p>
+</li>
+<li>
+<p>命令语言：</p>
+</li>
+</ol>
+</li>
+<li>
+<p>开发系统</p>
+<p>绘制画面</p>
+</li>
+<li>
+<p>创建图形对象</p>
+<p>从<code>工具箱</code>中选择图形进行绘制</p>
+</li>
+</ol>
+<h3 id="建立动画连接">建立动画连接</h3>
+<p>组态王提供了24种动画连接方式：</p>
+<pre><code>属性变化----------线、填充、文本色变化
+位置与大小变化----填充、缩放、旋转、水平移动、垂直移动
+值输出------------模拟值、离散值、字符串输出
+值输入------------模拟值、离散值、字符串输入
+特殊--------------闪烁、隐含、流动（仅适用于立体管道）
+滑动杆输入--------水平、垂直
+命令语言----------按下时、弹起时、安装时、鼠标进入、鼠标离开
+</code></pre>
+<blockquote>
+<p>一个图形可同时定义多个连接。</p>
+</blockquote>
+<h3 id="运行和调试">运行和调试</h3>
+<p>在开发系统中，选择<code>文件/切换到View</code>，进入组态王运行系统。</p>
+<p>在运行系统中，选择<code>画面/打开</code>，选择创建的画面。</p>
 		</div>
 		<footer class="post__footer">
 			
@@ -223,7 +331,10 @@ END_IF;
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/st%E8%AF%AD%E8%A8%80/" rel="tag">ST语言</a>
+			<a class="tags__link btn" href="/tags/%E7%BB%84%E6%80%81%E7%8E%8B/" rel="tag">组态王</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/scada/" rel="tag">SCADA</a>
 		</li>
 	</ul>
 </div>
@@ -465,15 +576,9 @@ document.getElementById('randomQuote').innerHTML = randomQuote;
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/post/%E5%8D%95%E6%8C%89%E9%92%AE%E5%BE%AA%E7%8E%AF%E5%90%AF%E5%81%9C%E4%B8%89%E5%8F%B0%E7%94%B5%E6%9C%BA%E7%9A%84%E7%A8%8B%E5%BA%8F/" rel="prev">
+		<a class="pager__link" href="/post/fuxa-scada%E5%AE%89%E8%A3%85/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">单按钮循环启停三台电机的程序</p>
-		</a>
-	</div>
-	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/post/cad-note-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E7%BD%AE/" rel="next">
-			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">CAD软件设置</p>
+			<p class="pager__title">FUXA SCADA安装</p>
 		</a>
 	</div>
 </nav>

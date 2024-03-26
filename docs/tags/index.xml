@@ -6,20 +6,27 @@
     <description>Recent content in Tags on Website of hobo loco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 Mar 2024 18:02:54 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2024 22:27:23 +0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCADA</title>
+      <link>/tags/scada/</link>
+      <pubDate>Tue, 26 Mar 2024 22:27:23 +0800</pubDate>
+      <guid>/tags/scada/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>组态王</title>
+      <link>/tags/%E7%BB%84%E6%80%81%E7%8E%8B/</link>
+      <pubDate>Tue, 26 Mar 2024 22:27:23 +0800</pubDate>
+      <guid>/tags/%E7%BB%84%E6%80%81%E7%8E%8B/</guid>
+      <description></description>
+    </item>
     <item>
       <title>FUXA</title>
       <link>/tags/fuxa/</link>
       <pubDate>Sun, 24 Mar 2024 18:02:54 +0800</pubDate>
       <guid>/tags/fuxa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SCADA</title>
-      <link>/tags/scada/</link>
-      <pubDate>Sun, 24 Mar 2024 18:02:54 +0800</pubDate>
-      <guid>/tags/scada/</guid>
       <description></description>
     </item>
     <item>

@@ -14,7 +14,7 @@ theme = "mainroad"
 
 [Author]                                                        # 作者信息（用于作者框）
   name = "Hobo Loco"
-  bio = "Hobo Loco's a successful blogger. Nobody knows it."    # 作者简介
+  bio = "Hobo Loco's a successful Engineer. Nobody knows it."    # 作者简介
   avatar = "img/avatar.png"                                     # 作者头像路径
 
 [Params]                                                        # 参数设置
